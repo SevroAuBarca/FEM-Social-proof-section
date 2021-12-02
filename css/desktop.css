@@ -1,0 +1,79 @@
+.background-top {
+  background: url(../images/bg-pattern-top-desktop.svg);
+  background-repeat: no-repeat;
+}
+.background-bottom {
+  background: url(../images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+.container {
+  min-height: 100vh;
+}
+.container .container__section {
+  width: 80%;
+  text-align: center;
+  display: flex;
+}
+
+.container .container__section:first-child {
+  margin-bottom: 5vh;
+  align-items: center;
+}
+
+.container__section--head {
+  font-size: 3rem;
+  padding-right: 17%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container__section--head > p {
+  font-size: 1.2rem;
+}
+
+.container .container__section--stars > .container__section--stars-item {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 5vh;
+}
+.container__section--stars > .container__section--stars-item:nth-child(2) {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container__section--stars > .container__section--stars-item:nth-child(3) {
+  margin-left: auto;
+}
+.container__section--stars-item > p {
+  margin-top: 0;
+}
+.container__section:last-child {
+  display: flex;
+  justify-content: space-around;
+
+  height: 50vh;
+  margin: 0;
+}
+.container__section .container__section--profile {
+  width: 30%;
+  height: 35vh;
+}
+.container__section:last-child .container__section--profile {
+  padding: 2%;
+}
+.container__section .container__section--profile:nth-child(2) {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.container__section .container__section--profile:last-child {
+  margin-top: auto;
+}
+
+.container__section--head,
+.container .container__section--stars {
+  width: 50%;
+}
